@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Stick No Bills', sans-serif;
+}
+body{
+    position: relative;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.container .btn{
+    margin-top:0%;
+    z-index: 1000;
+    width: 20%;
+    border-radius:5px;
+    border: 1px transparent black;
+}
+.container .btn:hover{
+    background-color:rgb(108, 6, 6);
+    color: white;
+}
+a{
+    margin-top:3%;
+    z-index: 1000;
+    width: 20%;
+    display: contents;
+    border-radius:5px;
+    border: 1px transparent black;
+    box-shadow: 20px 20px black;
+}
+a:hover{
+    color:white;
+    background-color: red;
+    box-shadow: 20px 20px rgb(255, 255, 255);
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 12vw;
+    line-height: 1em;
+    z-index: 1000;
+    font-weight:900;
+}
+h2 span{
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.block{
+    position: absolute;
+    width: 50px;
+    height:100px ;
+    background:black;
+    box-shadow: 10px 10px 50px red;
+
+}
